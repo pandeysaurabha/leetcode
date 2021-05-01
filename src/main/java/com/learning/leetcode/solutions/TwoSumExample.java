@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class TwoSumExample {
     public int[] twoSum(int[] array, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<Integer,Integer>();
         for (int index = 0; index < array.length; index++) {
             int diff = target - array[index];
             if (map.containsKey(diff)) {
