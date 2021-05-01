@@ -22,6 +22,9 @@ public class TwoSumExample {
         TwoSumExample twoSumExample = new TwoSumExample();
         int[] array = {2, 7, 11, 15};
         int indexes[] = twoSumExample.twoSum(array, 9);
+        if (indexes != null && indexes.length == 2) {
+            System.out.println("[" + indexes[0] + "," + indexes[1] + "]");
+        }
 
     }
 
