@@ -25,7 +25,6 @@ public class ValidParenthesesExample {
     }
 
     public static void main(String[] args) {
-        String[] strArray = {"flower", "flow", "flight"};
         ValidParenthesesExample validParenthesesExample = new ValidParenthesesExample();
         System.out.println(validParenthesesExample.isValid("{{}}"));
 
